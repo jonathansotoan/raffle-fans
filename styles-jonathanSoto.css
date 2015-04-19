@@ -1,0 +1,107 @@
+/* Hecho por Jonathan Soto: theja29@hotmail.com */
+body {
+	color: white;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+	font-size: 4em;
+	font-family: helvetica;
+}
+
+footer {
+	font-size: 15px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+#winnerMsg {
+	color: red;
+	width: 630px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#frame {
+	position: absolute;
+}
+
+#container {
+	width: 960px;
+	height: 635px;
+	margin: auto;
+	position: relative;
+}
+
+.slot-wrapper {
+	overflow: hidden;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	top: 170px;
+	width: 100%;
+	text-align: center;
+}
+
+#number-slot-wrapper {
+	top: 340px;
+}
+
+.slot {
+	display: initial;
+	position: relative;
+	top: 0;
+}
+
+#btnWrapper {
+	position: absolute;
+	width: 100%;
+	left: 85%;
+	top: 40%;
+}
+
+.playBtn {
+	-moz-box-shadow:inset 0px 0px 7px 1px #fce2c1;
+	-webkit-box-shadow:inset 0px 0px 7px 1px #fce2c1;
+	box-shadow:inset 0px 0px 7px 1px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Comic Sans MS;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:126px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:2px 5px 0px #cc9f52;
+}
+.playBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.playBtn:active {
+	position:relative;
+	top:1px;
+}
+/* Hecho por Jonathan Soto: theja29@hotmail.com */
