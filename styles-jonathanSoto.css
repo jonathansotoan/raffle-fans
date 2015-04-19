@@ -1,0 +1,43 @@
+/* Hecho por Jonathan Soto: theja29@hotmail.com */
+body {
+	color: white;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+	font-size: 4em;
+	font-family: helvetica;
+}
+
+footer {
+	font-size: 15px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#winnerMsg {
+	color: red;
+	width: 630px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#container {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 165px;
+	left: 0;
+}
+
+#number {
+	margin-top: 20px;
+	border-radius: black 5px;
+}
+
+#frame {
+	width: 960px;
+	height: 635px;
+	margin: auto;
+}
+/* Hecho por Jonathan Soto: theja29@hotmail.com */
